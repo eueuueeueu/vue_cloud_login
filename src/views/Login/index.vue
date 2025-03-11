@@ -4,7 +4,7 @@
       <span class="text-[#696969] text-[22px]"><</span>
       <span class="text-[#696969] text-[16px]">游客登录</span>
     </div>
-    <img class="w-[130px] mx-auto mt-[7vh] mb-[5vh]" src="../../../public/logo.svg" alt="" />
+    <img class="w-[130px] mx-auto mt-[7vh] mb-[5vh]" src="/logo.svg" alt="" />
     <div
       v-if="baseURL.code === 801 || baseURL.code === 800"
       class="mx-auto flex flex-col items-center"
@@ -28,11 +28,11 @@
       </p>
     </div>
     <div v-if="baseURL.code === 802" class="mx-auto flex flex-col items-center">
-      <img class="w-[40vw] h-[40vw]" src="../../../public/queding.png" alt="" />
+      <img class="w-[40vw] h-[40vw]" src="/queding.png" alt="" />
       <p class="text-center my-[5vh]">扫描成功</p>
       <p class="text-center">请在手机上确认登录</p>
     </div>
-    <img class="w-full absolute bottom-0 left-0" src="../../../public/bg-login.png" alt="" />
+    <img class="w-full absolute bottom-0 left-0" src="/bg-login.png" alt="" />
   </div>
 </template>
 <script setup>
